@@ -6,7 +6,7 @@ const GoogleMap = () => {
   const [infoWindowOpen, setInfoWindowOpen] = useState(false);
   
   const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
-  const position = { lat: 51.41664, lng: 21.96933 }; // Puławy coordinates
+  const position = { lat: 51.413372499999994, lng: 21.9773405 }; // Dokładna lokalizacja gabinetu
   
   if (!apiKey) {
     return (
