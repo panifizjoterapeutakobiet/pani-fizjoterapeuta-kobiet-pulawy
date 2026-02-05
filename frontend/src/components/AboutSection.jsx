@@ -8,18 +8,18 @@ const AboutSection = () => {
         <div className="about-grid">
           <div className="about-image-section">
             <div className="about-image-main">
-              <img 
+              <img
                 src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/evtn0lwx_0X2A3431-2.jpg"
                 alt="Klaudia Duda"
-                className="about-img"
-              />
+                className="about-img" />
+
             </div>
             <div className="about-image-secondary">
-              <img 
+              <img
                 src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/o9z54iuo_0X2A3244-2.jpg"
                 alt="Gabinet Fizjoterapii"
-                className="about-img-small"
-              />
+                className="about-img-small" />
+
             </div>
           </div>
 
@@ -89,14 +89,14 @@ const AboutSection = () => {
                 <li>Fizjoterapia uroginekologiczna</li>
                 <li>Terapia dna miednicy</li>
                 <li>Fizjoterapia w ciąży i połogu</li>
-                <li>Terapia manualna</li>
+                <li>Terapia manualna dna miednicy w koncepcji Rakowskiego</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
