@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import GoogleMap from './GoogleMap';
 
 const ContactSection = () => {
   return (
@@ -82,16 +83,7 @@ const ContactSection = () => {
           </div>
 
           <div className="map-container">
-            <div className="map-placeholder">
-              <MapPin size={48} color="var(--color-blue)" />
-              <p className="body-medium">
-                Mapa Google zostanie wyświetlona tutaj po dodaniu klucza Google Maps API
-              </p>
-              <p className="body-small" style={{ marginTop: '1rem' }}>
-                ul. Gościńczyk 7, 24-100 Puławy
-              </p>
-            </div>
-            {/* Tutaj będzie mapa Google po dodaniu API key */}
+            <GoogleMap />
           </div>
         </div>
       </div>
