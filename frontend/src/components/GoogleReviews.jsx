@@ -26,7 +26,7 @@ const GoogleReviews = () => {
           headers: {
             'Content-Type': 'application/json',
             'X-Goog-Api-Key': apiKey,
-            'X-Goog-FieldMask': 'reviews,rating,userRatingCount,displayName'
+            'X-Goog-FieldMask': 'displayName,rating,userRatingCount,reviews'
           }
         });
 
