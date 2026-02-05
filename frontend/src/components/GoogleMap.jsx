@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react-google-maps';
+import { APIProvider, Map, AdvancedMarker, InfoWindow } from '@vis.gl/react-google-maps';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
 const GoogleMap = () => {
@@ -31,11 +31,24 @@ const GoogleMap = () => {
             position={position}
             onClick={() => setInfoWindowOpen(!infoWindowOpen)}
           >
-            <Pin
-              background="var(--color-blue)"
-              glyphColor="#ffffff"
-              borderColor="var(--color-gold)"
-            />
+            <div style={{
+              width: '32px',
+              height: '32px',
+              background: 'var(--color-blue)',
+              borderRadius: '50% 50% 50% 0',
+              transform: 'rotate(-45deg)',
+              border: '3px solid white',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}>
+              <MapPin 
+                size={20} 
+                color="white" 
+                style={{ transform: 'rotate(45deg)' }}
+              />
+            </div>
           </AdvancedMarker>
 
           {infoWindowOpen && (
