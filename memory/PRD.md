@@ -86,9 +86,9 @@ Zbudowanie profesjonalnej, nowoczesnej i budzjącej zaufanie strony internetowej
    - Dla Kogo - 6 grup docelowych
    - Oferta - 14 usług z opisami
    - Jak Wygląda Wizyta - 4 etapy
-   - Opinie - mockup 6 opinii
+   - Opinie - **DZIAŁAJĄCE pobieranie z Google API (5 lutego 2025)**
    - FAQ - 9 pytań i odpowiedzi
-   - Kontakt - dane kontaktowe, social media, mockup mapy
+   - Kontakt - dane kontaktowe, social media, **DZIAŁAJĄCA mapa Google Maps (5 lutego 2025)**
 
 3. **Design & Styling**
    - Niebiesko-złota paleta kolorów
@@ -102,10 +102,15 @@ Zbudowanie profesjonalnej, nowoczesnej i budzjącej zaufanie strony internetowej
    - Hover effects
    - Mobile menu
 
+5. **Integracje API (5 lutego 2025)**
+   - ✅ Google Maps JavaScript API - interaktywna mapa z markerem
+   - ✅ Google Places API - automatyczne pobieranie opinii (5 opinii, ocena 5.0⭐)
+   - Klucze API zabezpieczone przez ograniczenia domeny i API
+
 ### ⏳ Do Zrobienia (Backlog)
 **P1 - Wysoki priorytet:**
-- [ ] Dodanie Google Maps API key i implementacja mapy
-- [ ] Dodanie Google Places API key i automatyczne pobieranie opinii
+- [x] Dodanie Google Maps API key i implementacja mapy ✅ **Gotowe 5.02.2025**
+- [x] Dodanie Google Places API key i automatyczne pobieranie opinii ✅ **Gotowe 5.02.2025**
 
 **P2 - Średni priorytet:**
 - [ ] Optymalizacja SEO (meta tags, OpenGraph)
