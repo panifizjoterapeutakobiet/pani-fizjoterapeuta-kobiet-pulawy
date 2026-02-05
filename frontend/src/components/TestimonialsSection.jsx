@@ -1,5 +1,6 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
+import { Star } from 'lucide-react';
+import GoogleReviews from './GoogleReviews';
 
 const TestimonialsSection = () => {
   // Mockup testimonials - będą zastąpione przez Google Reviews API
@@ -53,44 +54,7 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        <div className="testimonials-note">
-          <p className="body-small">
-            <Star size={16} fill="var(--color-gold-dark)" color="var(--color-gold-dark)" style={{ display: 'inline', marginRight: '4px' }} />
-            Opinie z Google • Po dodaniu kluczy API będą pobierane automatycznie
-          </p>
-        </div>
-
-        <div className="testimonials-grid">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial-card">
-              <div className="testimonial-header">
-                <div className="testimonial-avatar">
-                  {testimonial.name.charAt(0)}
-                </div>
-                <div className="testimonial-info">
-                  <h4 className="heading-3">{testimonial.name}</h4>
-                  <div className="testimonial-stars">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star 
-                        key={i} 
-                        size={16} 
-                        fill="var(--color-gold-dark)" 
-                        color="var(--color-gold-dark)" 
-                      />
-                    ))}
-                  </div>
-                </div>
-              </div>
-              
-              <div className="testimonial-content">
-                <Quote size={24} color="var(--color-blue-light)" className="quote-icon" />
-                <p className="body-medium">{testimonial.text}</p>
-              </div>
-              
-              <span className="testimonial-date caption">{testimonial.date}</span>
-            </div>
-          ))}
-        </div>
+        <GoogleReviews />
 
         <div className="testimonials-cta">
           <a 
