@@ -19,8 +19,8 @@ const HeroSection = () => {
               <span>Gabinet w Puławach</span>
             </div>
             
-            <h1 className="heading-hero">
-              Fizjoterapia kobiet w Puławach – wsparcie Twojego ciała na każdym etapie życia
+            <h1 className="heading-hero">Pani Fizjoterapeuta Kobiet – wsparcie Twojego ciała na każdym etapie życia
+
             </h1>
             
             <p className="hero-subtitle body-large">
@@ -44,17 +44,17 @@ const HeroSection = () => {
           
           <div className="hero-image">
             <div className="hero-image-wrapper">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/rclcargt_0X2A3236-2.jpg" 
+              <img
+                src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/rclcargt_0X2A3236-2.jpg"
                 alt="Klaudia Duda - Fizjoterapeuta Kobiet"
-                className="hero-img"
-              />
+                className="hero-img" />
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
