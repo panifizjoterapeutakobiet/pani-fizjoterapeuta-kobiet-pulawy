@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="heading-3">Pani Fizjoterapeuta Kobiet</h3>
+            <h3 className="heading-3">Pani Fizjoterapeuta Kobiet Klaudia Duda</h3>
             <p className="body-small footer-description">
               Profesjonalna fizjoterapia uroginekologiczna w Puławach. 
               Wsparcie dla kobiet na każdym etapie życia.
