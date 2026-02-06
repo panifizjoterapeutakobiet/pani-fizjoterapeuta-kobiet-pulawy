@@ -20,22 +20,22 @@ const Footer = () => {
               Wsparcie dla kobiet na każdym etapie życia.
             </p>
             <div className="footer-social">
-              <a 
-                href="https://www.instagram.com/pani_fizjoterapeuta_kobiet" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/pani_fizjoterapeuta_kobiet"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="footer-social-link"
-                aria-label="Instagram"
-              >
+                aria-label="Instagram">
+
                 <Instagram size={20} />
               </a>
-              <a 
-                href="https://www.facebook.com/panifizjoterapeutakobiet" 
-                target="_blank" 
+              <a
+                href="https://www.facebook.com/panifizjoterapeutakobiet"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="footer-social-link"
-                aria-label="Facebook"
-              >
+                aria-label="Facebook">
+
                 <Facebook size={20} />
               </a>
             </div>
@@ -73,16 +73,16 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p className="body-small">
-            © 2024 Pani Fizjoterapeuta Kobiet - Klaudia Duda. Wszystkie prawa zastrzeżone.
+          <p className="body-small">© 2026 Pani Fizjoterapeuta Kobiet - Klaudia Duda. Wszystkie prawa zastrzeżone.
+
           </p>
           <p className="body-small footer-heart">
             Stworzone z <Heart size={14} fill="var(--color-gold-dark)" color="var(--color-gold-dark)" style={{ display: 'inline', margin: '0 4px' }} /> dla kobiet
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
