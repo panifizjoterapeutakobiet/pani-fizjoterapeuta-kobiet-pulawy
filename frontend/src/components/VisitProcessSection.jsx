@@ -68,12 +68,12 @@ const VisitProcessSection = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/qyn5lc4a_0X2A3502-2.jpg"
               alt="Konsultacja fizjoterapeutyczna"
-              className="visit-img"
+              className="visit-img visit-img-landscape"
             />
             <img 
               src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/ioevccjs_0X2A2801-2.jpg"
               alt="Terapia fizjoterapeutyczna"
-              className="visit-img"
+              className="visit-img visit-img-portrait"
             />
           </div>
         </div>
