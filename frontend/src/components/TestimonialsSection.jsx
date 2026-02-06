@@ -58,7 +58,7 @@ const TestimonialsSection = () => {
 
         <div className="testimonials-cta">
           <a 
-            href="https://www.google.com/search?q=pani+fizjoterapeuta+kobiet+pu%C5%82awy" 
+            href={`https://search.google.com/local/writereview?placeid=${process.env.REACT_APP_GOOGLE_PLACE_ID}`}
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-secondary"
