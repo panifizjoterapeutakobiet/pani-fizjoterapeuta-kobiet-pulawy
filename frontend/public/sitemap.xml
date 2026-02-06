@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/evtn0lwx_0X2A3431-2.jpg</image:loc>
+      <image:title>Pani Fizjoterapeuta Kobiet - Klaudia Duda</image:title>
+      <image:caption>Fizjoterapia uroginekologiczna dla kobiet w Puławach</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Section: O mnie -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#o-mnie</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Section: Dla kogo -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#dla-kogo</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Section: Oferta -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#oferta</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Section: Jak wygląda wizyta -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#wizyta</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Section: Opinie -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#opinie</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Section: FAQ -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#faq</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Section: Kontakt -->
+  <url>
+    <loc>https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#kontakt</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
