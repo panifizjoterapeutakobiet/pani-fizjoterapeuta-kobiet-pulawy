@@ -144,7 +144,7 @@ const GoogleReviews = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1rem' }}>
               <span className="testimonial-date caption">{testimonial.date}</span>
               <a
-                href="https://maps.app.goo.gl/y5NJxhCzZRKfWUQx5"
+                href={`https://search.google.com/local/reviews?placeid=${process.env.REACT_APP_GOOGLE_PLACE_ID}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ 
