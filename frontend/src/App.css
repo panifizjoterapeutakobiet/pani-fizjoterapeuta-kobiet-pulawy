@@ -547,9 +547,28 @@
   }
   
   .about-image-secondary {
-    width: 100%;
-    margin-top: 1.5rem;
+    display: none;
   }
+  
+  .about-image-mobile-before-education {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+  }
+  
+  .about-image-mobile-before-education img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* Ukryj zdjęcie mobile na desktop */
+.about-image-mobile-before-education {
+  display: none;
 }
 
 /* ====================================
