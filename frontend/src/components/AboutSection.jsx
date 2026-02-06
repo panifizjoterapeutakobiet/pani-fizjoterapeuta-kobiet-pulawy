@@ -83,6 +83,14 @@ const AboutSection = () => {
               </div>
             </div>
 
+            {/* Zdjęcie przed wykształceniem - tylko mobile */}
+            <div className="about-image-mobile-before-education">
+              <img
+                src="https://customer-assets.emergentagent.com/job_fizjo-dla-kobiet/artifacts/o9z54iuo_0X2A3244-2.jpg"
+                alt="Gabinet Fizjoterapii"
+                className="about-img-small" />
+            </div>
+
             <div className="about-education">
               <h4 className="heading-2">Wykształcenie i certyfikaty</h4>
               <ul className="education-list">
