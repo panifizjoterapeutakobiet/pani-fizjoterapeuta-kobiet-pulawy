@@ -1,5 +1,5 @@
 import React from 'react';
-import { Baby, Heart, Flower2, Activity, HeartPulse, User, Sparkles, TrendingDown, Target } from 'lucide-react';
+import { Baby, Heart, Flower2, Activity, HeartPulse, User, Sparkles, TrendingDown, Target, Layers } from 'lucide-react';
 
 const ForWhomSection = () => {
   const targetGroups = [
@@ -56,6 +56,12 @@ const ForWhomSection = () => {
     title: "Kobiety przygotowujące się do ciąży i porodu",
     description: "Świadome przygotowanie ciała - nauka pracy z dnem miednicy, ćwiczenia oddechowe i optymalizacja funkcji mięśni",
     color: "blue"
+  },
+  {
+    icon: Layers,
+    title: "Kobiety z rozejściem mięśnia prostego brzucha",
+    description: "Terapia i ćwiczenia wspierające prawidłowe funkcjonowanie mięśni brzucha oraz przywracanie ich stabilności",
+    color: "gold"
   }];
 
 
