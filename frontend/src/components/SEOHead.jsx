@@ -7,11 +7,11 @@ const SEOHead = () => {
     "@graph": [
       {
         "@type": "MedicalBusiness",
-        "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#medicalbusiness",
+        "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#medicalbusiness",
         "name": "Pani Fizjoterapeuta Kobiet",
         "alternateName": "Fizjoterapia Uroginekologiczna Klaudia Duda",
         "description": "Specjalistyczna fizjoterapia uroginekologiczna dla kobiet w Puławach. Terapia dna miednicy, przygotowanie do porodu, rehabilitacja poporodowa.",
-        "url": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/",
+        "url": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/",
         "telephone": "+48720776138",
         "email": "panifizjoterapeutakobiet@gmail.com",
         "priceRange": "$$",
@@ -49,13 +49,13 @@ const SEOHead = () => {
       },
       {
         "@type": "Physician",
-        "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#physician",
+        "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#physician",
         "name": "Klaudia Duda",
         "honorificPrefix": "mgr",
         "jobTitle": "Fizjoterapeuta Uroginekologiczny",
         "medicalSpecialty": "Fizjoterapia Uroginekologiczna",
         "worksFor": {
-          "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#medicalbusiness"
+          "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#medicalbusiness"
         },
         "alumniOf": "Rzeszowski Uniwersytet Medyczny",
         "knowsAbout": [
@@ -71,7 +71,7 @@ const SEOHead = () => {
         "@type": "Service",
         "serviceType": "Fizjoterapia Uroginekologiczna",
         "provider": {
-          "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#medicalbusiness"
+          "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#medicalbusiness"
         },
         "areaServed": {
           "@type": "City",
@@ -118,12 +118,12 @@ const SEOHead = () => {
       },
       {
         "@type": "WebSite",
-        "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#website",
-        "url": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/",
+        "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#website",
+        "url": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/",
         "name": "Pani Fizjoterapeuta Kobiet",
         "description": "Fizjoterapia uroginekologiczna dla kobiet w Puławach",
         "publisher": {
-          "@id": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/#medicalbusiness"
+          "@id": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/#medicalbusiness"
         },
         "inLanguage": "pl-PL"
       }
