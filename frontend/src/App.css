@@ -545,9 +545,8 @@
   }
   
   .about-image-secondary {
-    position: static;
-    width: 60%;
-    margin: 2rem auto 0;
+    width: 100%;
+    margin-top: 1.5rem;
   }
 }
 
