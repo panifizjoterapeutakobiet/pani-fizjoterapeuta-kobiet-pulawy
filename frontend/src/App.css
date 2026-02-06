@@ -995,6 +995,14 @@
    ==================================== */
 .contact-section {
   background: var(--bg-page);
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .contact-section .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .contact-grid {
@@ -1009,6 +1017,12 @@
   border-radius: 1.5rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   border: 2px solid var(--color-blue-light);
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 1.5rem;
+  }
 }
 
 .contact-details {
@@ -1044,11 +1058,14 @@
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s ease;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
-.contact-link:hover {
-  color: var(--color-blue-dark);
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .contact-link {
+    font-size: 0.875rem;
+  }
 }
 
 .social-links {
@@ -1085,12 +1102,15 @@
   min-height: 450px;
   width: 100%;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
   .map-container {
     border-radius: 1rem;
     min-height: 350px;
+    margin: 0;
+    padding: 0;
   }
 }
 
