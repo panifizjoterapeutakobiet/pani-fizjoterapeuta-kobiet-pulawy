@@ -394,15 +394,17 @@
 
 .hero-img {
   width: 100%;
-  height: auto;
+  height: 600px;
   display: block;
   object-fit: cover;
+  object-position: center;
 }
 
 @media (min-width: 968px) {
   .hero-img {
-    object-fit: contain;
-    max-height: 650px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
