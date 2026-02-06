@@ -25,7 +25,7 @@ const AboutSection = () => {
 
           <div className="about-content">
             <span className="section-subtitle">O mnie</span>
-            <h2 className="heading-1">Klaudia Duda</h2>
+            <h2 className="heading-1">mgr Klaudia Duda</h2>
             <h3 className="heading-3" style={{ color: 'var(--color-gold-dark)', marginBottom: '1.5rem' }}>
               Fizjoterapeuta Uroginekologiczny
             </h3>
