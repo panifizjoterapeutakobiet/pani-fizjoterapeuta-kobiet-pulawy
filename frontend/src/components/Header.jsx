@@ -25,7 +25,7 @@ const Header = () => {
     <header className={`header-nav ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-content">
         <div className="logo-section">
-          <h2 className="logo-text">Pani Fizjoterapeuta Kobiet</h2>
+          <h2 className="logo-text">Pani Fizjoterapeuta Kobiet Klaudia Duda</h2>
         </div>
 
         {/* Desktop Navigation */}
