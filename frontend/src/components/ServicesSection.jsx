@@ -18,7 +18,7 @@ const ServicesSection = () => {
   {
     title: "Terapia blizn po cesarskim cięciu",
     short: "Leczenie blizn i przywracanie mobilności tkanek",
-    description: "Specjalistyczne techniki manualne rozluźniające blizny po cesarskim cięciu. Pomaga zmniejszyć ból, poprawić wygląd blizny i przywrócić prawidłową funkcję tkanek."
+    description: "Specjalistyczne techniki manualne i suche igłowanie blizn po cesarskim cięciu. Pomaga zmniejszyć ból, poprawić wygląd blizny, zwiększyć elastyczność tkanek i przywrócić prawidłową funkcję. Terapia obejmuje zarówno delikatną pracę manualną, jak i zaawansowane techniki suchego igłowania."
   },
   {
     title: "Terapia po episiotomii i pęknięciu tkanek krocza",

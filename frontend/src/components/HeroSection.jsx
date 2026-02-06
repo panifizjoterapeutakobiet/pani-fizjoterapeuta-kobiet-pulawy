@@ -24,8 +24,8 @@ const HeroSection = () => {
             </h1>
             
             <p className="hero-subtitle body-large">
-              Pomagam kobietom z dolegliwościami dna miednicy, bólem, problemami intymnymi 
-              oraz w okresie ciąży, po porodzie i w menopauzie.
+              Pomagam kobietom z dolegliwościami dna miednicy, bólem, problemami intymnymi, 
+              w przygotowaniu do porodu oraz w okresie ciąży, po porodzie i w menopauzie.
             </p>
             
             <div className="hero-cta">
