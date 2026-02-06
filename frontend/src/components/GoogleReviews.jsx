@@ -143,24 +143,22 @@ const GoogleReviews = () => {
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1rem' }}>
               <span className="testimonial-date caption">{testimonial.date}</span>
-              {testimonial.authorUri && (
-                <a
-                  href={testimonial.authorUri}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    gap: '0.25rem',
-                    color: 'var(--color-blue)',
-                    textDecoration: 'none',
-                    fontSize: '0.75rem'
-                  }}
-                >
-                  <span>Zobacz w Google</span>
-                  <ExternalLink size={12} />
-                </a>
-              )}
+              <a
+                href={`https://search.google.com/local/reviews?placeid=${process.env.REACT_APP_GOOGLE_PLACE_ID}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '0.25rem',
+                  color: 'var(--color-blue)',
+                  textDecoration: 'none',
+                  fontSize: '0.75rem'
+                }}
+              >
+                <span>Zobacz w Google</span>
+                <ExternalLink size={12} />
+              </a>
             </div>
           </div>
         ))}

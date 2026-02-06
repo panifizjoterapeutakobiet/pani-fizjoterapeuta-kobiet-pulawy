@@ -1013,6 +1013,11 @@
 
 .contact-card {
   background: white;
+
+.contact-link:hover {
+  color: var(--color-blue-dark);
+  text-decoration: underline;
+}
   padding: 2.5rem;
   border-radius: 1.5rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
