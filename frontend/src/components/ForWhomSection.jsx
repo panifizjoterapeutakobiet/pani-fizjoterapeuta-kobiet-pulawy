@@ -1,5 +1,5 @@
 import React from 'react';
-import { Baby, Heart, Flower2, Activity, HeartPulse, User } from 'lucide-react';
+import { Baby, Heart, Flower2, Activity, HeartPulse, User, Sparkles, TrendingDown, Target } from 'lucide-react';
 
 const ForWhomSection = () => {
   const targetGroups = [
@@ -38,6 +38,24 @@ const ForWhomSection = () => {
     title: "Kobiety w menopauzie",
     description: "Wsparcie w okresie zmian hormonalnych i łagodzenie objawów",
     color: "gold"
+  },
+  {
+    icon: Sparkles,
+    title: "Kobiety zmagające się z niepłodnością",
+    description: "Holistyczne wsparcie funkcji układu rozrodczego poprzez terapię dna miednicy, poprawę ukrwienia i rozluźnienie napięć",
+    color: "blue"
+  },
+  {
+    icon: TrendingDown,
+    title: "Kobiety z obniżeniem narządu rodnego",
+    description: "Specjalistyczna terapia wzmacniająca struktury dna miednicy i zapobiegająca pogłębianiu się problemu",
+    color: "gold"
+  },
+  {
+    icon: Target,
+    title: "Kobiety przygotowujące się do ciąży i porodu",
+    description: "Świadome przygotowanie ciała - nauka pracy z dnem miednicy, ćwiczenia oddechowe i optymalizacja funkcji mięśni",
+    color: "blue"
   }];
 
 
