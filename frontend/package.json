@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy",
+  "homepage": "https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
