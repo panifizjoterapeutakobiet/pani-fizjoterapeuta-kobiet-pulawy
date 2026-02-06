@@ -1231,15 +1231,6 @@
 /* ====================================
    RESPONSIVE
    ==================================== */
-html {
-  overflow-x: hidden;
-}
-
-body {
-  overflow-x: hidden;
-  width: 100%;
-}
-
 @media (max-width: 768px) {
   .section {
     padding: 3rem 0;
@@ -1247,6 +1238,8 @@ body {
   
   .container {
     padding: 0 1.25rem;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   .btn-lg {
@@ -1259,6 +1252,13 @@ body {
    ==================================== */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 /* ====================================
@@ -1266,4 +1266,5 @@ html {
    ==================================== */
 .App {
   min-height: 100vh;
+  overflow-x: hidden;
 }
