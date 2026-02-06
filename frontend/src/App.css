@@ -540,6 +540,11 @@
   font-weight: 600;
 }
 
+/* Zdjęcie przed wykształceniem - domyślnie ukryte */
+.about-image-mobile-before-education {
+  display: none;
+}
+
 @media (max-width: 968px) {
   .about-grid {
     grid-template-columns: 1fr;
@@ -564,11 +569,6 @@
     height: auto;
     display: block;
   }
-}
-
-/* Ukryj zdjęcie mobile na desktop */
-.about-image-mobile-before-education {
-  display: none;
 }
 
 /* ====================================
