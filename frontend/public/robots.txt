@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://panifizjoterapeutakobiet.github.io/pani-fizjoterapeuta-kobiet-pulawy/sitemap.xml
+Sitemap: https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy/sitemap.xml
 
 # Disallow admin or private areas (if any in future)
 # Disallow: /admin/
