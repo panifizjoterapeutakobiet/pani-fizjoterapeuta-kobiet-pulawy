@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <SEOHead />
-      <BrowserRouter>
+      <BrowserRouter basename="/panifizjoterapeutakobietpulawy">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
