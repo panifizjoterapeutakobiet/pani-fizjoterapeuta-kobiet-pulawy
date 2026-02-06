@@ -1231,6 +1231,15 @@
 /* ====================================
    RESPONSIVE
    ==================================== */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 3rem 0;
