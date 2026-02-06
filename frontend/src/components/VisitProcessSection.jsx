@@ -5,23 +5,38 @@ const VisitProcessSection = () => {
   const steps = [
     {
       number: "01",
-      title: "Rozmowa i wywiad",
-      description: "Na początku wizyty poświęcam czas na szczegółową rozmowę. Wysłucham Twoich dolegliwości, historii zdrowia i oczekiwań. To moment, w którym możesz swobodnie opowiedzieć o swoich problemach w pełni dyskretnej atmosferze."
+      title: "Rozmowa (wywiad)",
+      description: "Wizyta rozpoczyna się szczegółowym wywiadem bez oceniania, w bezpiecznej atmosferze. To moment, w którym możesz swobodnie opowiedzieć o swoich dolegliwościach, historii zdrowia i oczekiwaniach w pełni dyskretnej atmosferze."
     },
     {
       number: "02",
-      title: "Badanie diagnostyczne",
-      description: "Po rozmowie, za Twoją pełną zgodą, przeprowadzam badanie. Zawsze dbam o Twój komfort i intymność. Badanie jest delikatne i profesjonalne. W każdej chwili możesz poprosić o przerwę lub zadać pytania."
+      title: "Omówienie przebiegu wizyty",
+      description: "Każdy etap jest dokładnie wyjaśniony. Badania odbywają się zawsze za Twoją zgodą – możesz odmówić lub przerwać w każdej chwili. Dbam o Twój komfort i intymność na każdym kroku."
     },
     {
       number: "03",
-      title: "Terapia indywidualna",
-      description: "Na podstawie wywiadu i badania dobieram techniki terapeutyczne idealnie dopasowane do Twoich potrzeb. Może to być terapia manualna, ćwiczenia, biofeedback lub elektrostymulacja – zawsze w sposób komfortowy dla Ciebie."
+      title: "Ocena postawy i oddechu",
+      description: "Mięśnie dna miednicy współpracują z całym ciałem. Oceniam Twoją postawę, sposób oddychania i pracę przepony, co pozwala lepiej zrozumieć funkcjonowanie Twojego ciała."
     },
     {
       number: "04",
-      title: "Zalecenia do domu",
-      description: "Każda wizyta kończy się omówieniem planu terapeutycznego i zaleceniami do samodzielnego wykonywania w domu. Otrzymasz konkretne wskazówki, które pomogą Ci w procesie zdrowienia między wizytami."
+      title: "Badanie USG",
+      description: "Pozwala zobaczyć pracę mięśni dna miednicy na ekranie – w spoczynku i podczas napięcia. To bezbolesne badanie, które pomaga wizualizować działanie mięśni."
+    },
+    {
+      number: "05",
+      title: "Badanie per vaginam, per rectum",
+      description: "Delikatne badanie manualne, które pozwala ocenić siłę, napięcie, elastyczność, czucie i ewentualną bolesność mięśni. Zawsze przeprowadzane za Twoją pełną zgodą, z zachowaniem maksymalnego komfortu."
+    },
+    {
+      number: "06",
+      title: "Badanie EMG + biofeedback",
+      description: "Ocena aktywności mięśni dna miednicy oraz nauka prawidłowego napinania i rozluźniania mięśni dzięki informacji zwrotnej na ekranie. Widzisz na własne oczy, jak pracują Twoje mięśnie."
+    },
+    {
+      number: "07",
+      title: "Plan terapii i zalecenia",
+      description: "Na zakończenie omawiane są wyniki, przekazywane są pierwsze zalecenia oraz ustalany jest indywidualny plan terapii. Otrzymasz konkretne wskazówki, które pomogą Ci w procesie zdrowienia."
     }
   ];
 
@@ -64,7 +79,10 @@ const VisitProcessSection = () => {
         </div>
 
         <div className="visit-reassurance">
-          <h3 className="heading-2">Twój komfort jest priorytetem</h3>
+          <h3 className="heading-2">Pierwsza wizyta to diagnostyka, edukacja i nauka świadomej pracy z ciałem</h3>
+          <p className="body-medium" style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--text-secondary)' }}>
+            Wizyta przebiega w komfortowych warunkach, z poszanowaniem intymności pacjentki.
+          </p>
           <div className="reassurance-points">
             <div className="reassurance-point">
               <CheckCircle2 size={24} color="var(--color-blue)" />
