@@ -18,8 +18,8 @@ const ContactSection = () => {
           <div className="contact-info">
             <div className="contact-card">
               <h3 className="heading-2">Pani Fizjoterapeuta Kobiet</h3>
-              <h4 className="heading-3" style={{ color: 'var(--color-gold-dark)', marginBottom: '1.5rem' }}>
-                Klaudia Duda
+              <h4 className="heading-3" style={{ color: 'var(--color-gold-dark)', marginBottom: '1.5rem' }}>mgr Klaudia Duda
+
               </h4>
 
               <div className="contact-details">
@@ -60,21 +60,21 @@ const ContactSection = () => {
               </div>
 
               <div className="social-links">
-                <a 
-                  href="https://www.instagram.com/pani_fizjoterapeuta_kobiet" 
-                  target="_blank" 
+                <a
+                  href="https://www.instagram.com/pani_fizjoterapeuta_kobiet"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="social-link"
-                >
+                  className="social-link">
+
                   <Instagram size={24} />
                   <span>Instagram</span>
                 </a>
-                <a 
-                  href="https://www.facebook.com/panifizjoterapeutakobiet" 
-                  target="_blank" 
+                <a
+                  href="https://www.facebook.com/panifizjoterapeutakobiet"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="social-link"
-                >
+                  className="social-link">
+
                   <Facebook size={24} />
                   <span>Facebook</span>
                 </a>
@@ -87,8 +87,8 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;
