@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Strona Internetowa - Pani Fizjoterapeuta Kobiet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Profesjonalna strona internetowa dla gabinetu fizjoterapii uroginekologicznej w Puławach.
 
-## Available Scripts
+**🌐 Adres strony:** https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy
 
-In the project directory, you can run:
+## 🌟 Funkcje
 
-### `npm start`
+- ✅ Responsywny design (desktop, tablet, mobile)
+- ✅ Interaktywna mapa Google Maps z lokalizacją gabinetu
+- ✅ Automatyczne pobieranie opinii z Google (5.0⭐ - 7 opinii)
+- ✅ 8 sekcji: Hero, O mnie, Dla kogo, Oferta, Wizyta, Opinie, FAQ, Kontakt
+- ✅ 14 usług z rozwijalnymi opisami
+- ✅ Niebiesko-złota kolorystyka
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Szybki start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Zacznij tutaj:** [QUICK_START.md](QUICK_START.md) - wszystkie polecenia gotowe do skopiowania!
 
-### `npm test`
+**Szczegółowa instrukcja:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) - krok po kroku z wyjaśnieniami
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Co musisz zrobić?
 
-### `npm run build`
+1. Kliknij **"Save to GitHub"** w Emergent (nazwa repo: `panifizjoterapeutakobietpulawy`)
+2. Skopiuj polecenia z [QUICK_START.md](QUICK_START.md)
+3. Zaktualizuj ograniczenia Google API dla domeny: `panifizjoterapeutakobiet.github.io/*`
+4. Włącz GitHub Pages w ustawieniach repo
+5. Gotowe! Strona online za 3-5 minut
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Struktura projektu
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+frontend/
+├── src/
+│   ├── components/      # Komponenty React
+│   │   ├── Header.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── AboutSection.jsx
+│   │   ├── ForWhomSection.jsx
+│   │   ├── ServicesSection.jsx
+│   │   ├── VisitProcessSection.jsx
+│   │   ├── TestimonialsSection.jsx
+│   │   ├── FAQSection.jsx
+│   │   ├── ContactSection.jsx
+│   │   ├── GoogleMap.jsx          # 🗺️ Mapa z dokładną lokalizacją
+│   │   ├── GoogleReviews.jsx      # ⭐ Auto-pobieranie opinii
+│   │   └── Footer.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.js
+│   ├── App.css
+│   └── index.css
+├── package.json
+├── .env                           # Klucze API (NIE commituj!)
+├── README.md                      # Ten plik
+├── QUICK_START.md                 # ⚡ Szybkie polecenia
+└── DEPLOYMENT_GUIDE.md            # 📖 Szczegółowa instrukcja
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Kolory
 
-### `npm run eject`
+- **Niebieski główny:** `#4A90E2`
+- **Złoty akcent:** `#D4AF37`
+- **Tło:** `#FFF9F2` (kremowy)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔑 Klucze API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Plik `.env` (utworzony automatycznie):
+```env
+REACT_APP_GOOGLE_MAPS_API_KEY=AIzaSyD6WEGfjvdd2gbDJPyJIEay9_hqBBFUXPE
+REACT_APP_GOOGLE_PLACE_ID=ChIJJ5juV5t5IkcR2UaCBYO7ROc
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**⚠️ Pamiętaj:** Zaktualizuj ograniczenia w Google Cloud Console!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔄 Aktualizacje strony
 
-## Learn More
+```bash
+git add .
+git commit -m "Opis zmian"
+git push origin main
+npm run deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📞 Kontakt
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Pani Fizjoterapeuta Kobiet**  
+Klaudia Duda  
+ul. Gościńczyk 7, 24-100 Puławy  
+📱 +48 720 776 138  
+📧 panifizjoterapeutakobiet@gmail.com  
 
-### Code Splitting
+Instagram: [@pani_fizjoterapeuta_kobiet](https://www.instagram.com/pani_fizjoterapeuta_kobiet)  
+Facebook: [panifizjoterapeutakobiet](https://www.facebook.com/panifizjoterapeutakobiet)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Licencja
 
-### Analyzing the Bundle Size
+© 2025 Pani Fizjoterapeuta Kobiet. Wszystkie prawa zastrzeżone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Utworzono z ❤️ przez Emergent AI**

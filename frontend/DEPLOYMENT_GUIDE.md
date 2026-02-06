@@ -1,159 +1,247 @@
-# INSTRUKCJA WDROŻENIA NA GITHUB PAGES
+# 🚀 INSTRUKCJA PUBLIKACJI STRONY - KROK PO KROKU
 
-## Krok po kroku dla początkujących 🚀
-
-### CZĘŚĆ 1: Zapisz kod na GitHub
-
-1. **W tym chacie** kliknij przycisk **"Save to GitHub"** 
-2. Emergent utworzy dla Ciebie repozytorium GitHub
-3. Zapisz nazwę repozytorium (np. `fizjo-kobiet-strona`)
+**Twoje dane:**
+- Nazwa GitHub: `panifizjoterapeutakobiet`
+- Nazwa repozytorium: `panifizjoterapeutakobietpulawy`
+- Adres strony: https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy
 
 ---
 
-### CZĘŚĆ 2: Zaktualizuj adres strony
+## KROK 1: Zapisz kod na GitHub (w interfejsie Emergent)
 
-Po zapisaniu do GitHub:
+1. W tym chacie kliknij przycisk **"Save to GitHub"** 
+2. Nazwa repozytorium: `panifizjoterapeutakobietpulawy`
+3. Poczekaj, aż kod zostanie zapisany
 
-1. Otwórz plik `frontend/package.json`
-2. Znajdź linię:
-   ```json
-   "homepage": "https://TWOJA-NAZWA-UZYTKOWNIKA.github.io/NAZWA-REPOZYTORIUM",
-   ```
-3. Zamień na swoje dane:
-   ```json
-   "homepage": "https://klaudiaduda.github.io/fizjo-kobiet-strona",
-   ```
-   *(wpisz swoją nazwę użytkownika GitHub i nazwę repozytorium)*
+✅ **Gotowe? Przejdź do kroku 2**
 
 ---
 
-### CZĘŚĆ 3: Pobierz kod na komputer
+## KROK 2: Pobierz kod na swój komputer
 
-1. Otwórz Terminal (Mac/Linux) lub Git Bash (Windows)
-2. Wpisz:
-   ```bash
-   git clone https://github.com/TWOJA-NAZWA/fizjo-kobiet-strona.git
-   cd fizjo-kobiet-strona/frontend
-   ```
+Otwórz Terminal (Mac) lub Git Bash (Windows) i skopiuj poniższe polecenia:
+
+```bash
+# Sklonuj repozytorium
+git clone https://github.com/panifizjoterapeutakobiet/panifizjoterapeutakobietpulawy.git
+
+# Wejdź do folderu frontend
+cd panifizjoterapeutakobietpulawy/frontend
+```
+
+✅ **Skopiowane i wykonane? Przejdź do kroku 3**
 
 ---
 
-### CZĘŚĆ 4: Zainstaluj program
+## KROK 3: Zainstaluj zależności
 
-W terminalu wpisz:
+W tym samym terminalu wpisz:
+
 ```bash
 npm install
 ```
-*(to zainstaluje wszystkie potrzebne biblioteki)*
+
+⏳ To zajmie około 2-3 minuty. Poczekaj, aż się skończy.
+
+✅ **Instalacja zakończona? Przejdź do kroku 4**
 
 ---
 
-### CZĘŚĆ 5: Dodaj klucze Google API
+## KROK 4: Utwórz plik .env z kluczami API
 
-1. Utwórz plik `.env` w folderze `frontend/`
-2. Skopiuj do niego:
-   ```env
-   REACT_APP_GOOGLE_MAPS_API_KEY=AIzaSyD6WEGfjvdd2gbDJPyJIEay9_hqBBFUXPE
-   REACT_APP_GOOGLE_PLACE_ID=ChIJJ5juV5t5IkcR2UaCBYO7ROc
-   ```
+W tym samym terminalu skopiuj i wykonaj:
 
-**⚠️ WAŻNE - Zaktualizuj ograniczenia Google API:**
+```bash
+cat > .env << 'EOF'
+REACT_APP_GOOGLE_MAPS_API_KEY=AIzaSyD6WEGfjvdd2gbDJPyJIEay9_hqBBFUXPE
+REACT_APP_GOOGLE_PLACE_ID=ChIJJ5juV5t5IkcR2UaCBYO7ROc
+EOF
+```
 
-1. Przejdź na: https://console.cloud.google.com/apis/credentials
-2. Zaloguj się tym samym kontem, którym tworzyłaś klucze
-3. Kliknij na swój klucz API (ten o nazwie projektu)
-4. Przewiń do **"Ograniczenia aplikacji"**
-5. W sekcji **"Ruch z HTTP (strony internetowe)"** dodaj:
-   ```
-   TWOJA-NAZWA.github.io/*
-   ```
-   Przykład: `klaudiaduda.github.io/*`
-6. Kliknij **"Zapisz"**
+✅ **Plik .env utworzony? Przejdź do kroku 5**
 
 ---
 
-### CZĘŚĆ 6: Testuj lokalnie (opcjonalne)
+## KROK 5: ⚠️ WAŻNE - Zaktualizuj ograniczenia Google API
 
-Sprawdź, czy strona działa na Twoim komputerze:
+**Musisz to zrobić, inaczej mapa i opinie nie będą działać!**
+
+1. Otwórz: https://console.cloud.google.com/apis/credentials
+2. Zaloguj się (tym samym kontem, którym tworzyłaś klucze)
+3. Kliknij na swój klucz API (nazwa projektu: "Fizjo dla Kobiet" lub podobna)
+4. Przewiń w dół do sekcji **"Ograniczenia aplikacji"**
+5. Jeśli nie jest wybrane, wybierz: **"Ruch z HTTP (strony internetowe)"**
+6. W polu **"Odwołania z witryn internetowych"** dodaj:
+   ```
+   panifizjoterapeutakobiet.github.io/*
+   ```
+7. Kliknij **"ZAPISZ"** na dole strony
+
+✅ **Ograniczenia zaktualizowane? Przejdź do kroku 6**
+
+---
+
+## KROK 6: (Opcjonalnie) Testuj lokalnie
+
+Jeśli chcesz zobaczyć stronę na swoim komputerze przed publikacją:
+
 ```bash
 npm start
 ```
+
 Otwórz przeglądarkę: http://localhost:3000
 
-*(Naciśnij Ctrl+C w terminalu, aby zatrzymać)*
+**Aby zatrzymać:**
+- Naciśnij `Ctrl + C` w terminalu
+
+✅ **Przetestowane lub pominięte? Przejdź do kroku 7**
 
 ---
 
-### CZĘŚĆ 7: Opublikuj na GitHub Pages
+## KROK 7: 🚀 OPUBLIKUJ STRONĘ!
 
-W terminalu wpisz:
+To najważniejszy krok! Skopiuj i wykonaj w terminalu:
+
 ```bash
 npm run deploy
 ```
 
-To polecenie:
-- Zbuduje wersję produkcyjną strony
-- Opublikuje ją na GitHub Pages
-- Zajmie około 1-2 minuty
+📊 Co się stanie:
+- Zostanie zbudowana wersja produkcyjna strony (1-2 min)
+- Kod zostanie opublikowany na gałęzi `gh-pages`
+- Zobaczysz komunikat: "Published"
+
+⏳ To zajmie około 2-3 minuty. Poczekaj do końca!
+
+✅ **Widzisz "Published"? Przejdź do kroku 8**
 
 ---
 
-### CZĘŚĆ 8: Włącz GitHub Pages
+## KROK 8: Włącz GitHub Pages
 
-1. Przejdź na: https://github.com/TWOJA-NAZWA/fizjo-kobiet-strona
+1. Otwórz w przeglądarce: https://github.com/panifizjoterapeutakobiet/panifizjoterapeutakobietpulawy
 2. Kliknij zakładkę **Settings** (Ustawienia)
-3. W menu po lewej kliknij **Pages**
-4. W sekcji **"Source"** (Źródło) wybierz:
-   - Branch: **gh-pages**
-   - Folder: **/ (root)**
+3. W menu po lewej stronie kliknij **Pages**
+4. W sekcji **"Source"** (Źródło):
+   - Branch: wybierz **gh-pages**
+   - Folder: zostaw **/ (root)**
 5. Kliknij **Save** (Zapisz)
 
----
-
-### CZĘŚĆ 9: Sprawdź stronę
-
-Poczekaj 2-3 minuty, a następnie otwórz w przeglądarce:
-```
-https://TWOJA-NAZWA.github.io/fizjo-kobiet-strona
-```
-
-🎉 **Gotowe! Twoja strona jest online!**
+✅ **Zapisane? Przejdź do kroku 9**
 
 ---
 
-## 🔄 Jak aktualizować stronę?
+## KROK 9: 🎉 SPRAWDŹ SWOJĄ STRONĘ!
 
-Jeśli chcesz wprowadzić zmiany:
+Poczekaj **3-5 minut**, a następnie otwórz:
+
+```
+https://panifizjoterapeutakobiet.github.io/panifizjoterapeutakobietpulawy
+```
+
+🎉 **GRATULACJE! Twoja strona jest online!**
+
+---
+
+## 📋 SZYBKI CHECKLIST
+
+Zaznacz, co już zrobiłaś:
+
+- [ ] KROK 1: Zapisano kod na GitHub ("Save to GitHub")
+- [ ] KROK 2: Sklonowano repozytorium (`git clone...`)
+- [ ] KROK 3: Zainstalowano zależności (`npm install`)
+- [ ] KROK 4: Utworzono plik .env
+- [ ] KROK 5: Zaktualizowano ograniczenia Google API
+- [ ] KROK 6: (Opcjonalnie) Przetestowano lokalnie
+- [ ] KROK 7: Opublikowano stronę (`npm run deploy`)
+- [ ] KROK 8: Włączono GitHub Pages (Settings → Pages)
+- [ ] KROK 9: Sprawdzono stronę w przeglądarce
+
+---
+
+## 🔄 JAK AKTUALIZOWAĆ STRONĘ W PRZYSZŁOŚCI?
+
+Gdy będziesz chciała wprowadzić zmiany:
 
 1. Edytuj pliki na swoim komputerze
-2. W terminalu wpisz:
-   ```bash
-   git add .
-   git commit -m "Opis zmian"
-   git push origin main
-   npm run deploy
-   ```
-3. Poczekaj 2-3 minuty - zmiany będą widoczne
+2. W terminalu (w folderze `frontend/`):
+
+```bash
+# Zapisz zmiany
+git add .
+git commit -m "Opis zmian"
+git push origin main
+
+# Opublikuj aktualizację
+npm run deploy
+```
+
+3. Poczekaj 2-3 minuty - zmiany będą widoczne na stronie
 
 ---
 
-## ❓ Problemy?
+## ❓ CO JEŚLI COŚ NIE DZIAŁA?
 
-### Strona nie działa:
-- Sprawdź, czy włączyłaś GitHub Pages (Część 8)
-- Sprawdź, czy zaktualizowałaś klucze Google API (Część 5)
+### Problem: Strona pokazuje błąd 404
+**Rozwiązanie:**
+- Sprawdź KROK 8 - czy włączyłaś GitHub Pages?
 - Poczekaj 5 minut - GitHub potrzebuje czasu
+- Odśwież stronę (Ctrl+F5)
 
-### Mapa nie działa:
-- Sprawdź plik `.env` - czy klucze są poprawne?
-- Zaktualizuj ograniczenia w Google Cloud Console (Część 5)
+### Problem: Mapa nie działa
+**Rozwiązanie:**
+- Sprawdź KROK 5 - czy zaktualizowałaś ograniczenia API?
+- Sprawdź KROK 4 - czy plik .env został utworzony?
+- W Google Cloud Console sprawdź, czy domena `panifizjoterapeutakobiet.github.io/*` jest dodana
 
-### Opinie nie ładują się:
-- Sprawdź Place ID w pliku `.env`
-- Sprawdź ograniczenia API w Google Cloud Console
+### Problem: Opinie nie ładują się
+**Rozwiązanie:**
+- Sprawdź KROK 5 - zaktualizuj ograniczenia API
+- Sprawdź czy Place ID w .env jest poprawny: `ChIJJ5juV5t5IkcR2UaCBYO7ROc`
+
+### Problem: `npm run deploy` pokazuje błąd
+**Rozwiązanie:**
+```bash
+# Usuń folder build i spróbuj ponownie
+rm -rf build
+npm run deploy
+```
+
+### Problem: "Permission denied" przy git push
+**Rozwiązanie:**
+- Musisz być zalogowana do GitHub w terminalu
+- Ustaw swoje dane:
+```bash
+git config --global user.name "panifizjoterapeutakobiet"
+git config --global user.email "twoj-email@gmail.com"
+```
 
 ---
 
-## 📞 Potrzebujesz pomocy?
+## 📞 POTRZEBUJESZ POMOCY?
 
-Wróć do tego chatu i napisz - chętnie pomogę! 💙
+Wróć do tego chatu i napisz - chętnie pomogę rozwiązać problem! 💙
+
+---
+
+## 🎯 NASTĘPNE KROKI (OPCJONALNE)
+
+Po opublikowaniu strony możesz:
+
+1. **Dodać własną domenę** (np. fizjoterapiakobiet.pl)
+   - Bardziej profesjonalnie
+   - GitHub Pages obsługuje własne domeny za darmo!
+
+2. **Dodać Google Analytics**
+   - Śledź ile osób odwiedza stronę
+   - Dowiedz się, które sekcje są najpopularniejsze
+
+3. **Dodać politykę prywatności**
+   - Wymagane przez RODO
+   - Zwiększa zaufanie pacjentek
+
+Powiedz mi, jeśli chcesz którąś z tych rzeczy dodać! 🌸
+
+---
+
+**Powodzenia! 🚀**
