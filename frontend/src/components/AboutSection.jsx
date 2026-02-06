@@ -86,10 +86,20 @@ const AboutSection = () => {
             <div className="about-education">
               <h4 className="heading-2">Wykształcenie i certyfikaty</h4>
               <ul className="education-list">
-                <li>Fizjoterapia uroginekologiczna</li>
-                <li>Terapia dna miednicy</li>
-                <li>Fizjoterapia w ciąży i połogu</li>
-                <li>Terapia manualna dna miednicy w koncepcji Rakowskiego</li>
+                <li><strong>mgr Fizjoterapii</strong> - Rzeszowski Uniwersytet Medyczny</li>
+                <li>Praktyczna jedynka: Procedury i Schematy pracy fizjoterapii uroginekologicznej kobiet, przypadki kliniczne, badania USG, elektrostymulacja, biofeedback i praca funkcjonalna dna miednicy</li>
+                <li>Instytut Rakowskiego - Terapia dna miednicy w koncepcji Rakowskiego</li>
+                <li>Uroginekologia - Praktyka: badanie i techniki per vaginam i per rectum - mc2courses Polskie Stowarzyszenie Ginekologii i Uroginekologii</li>
+                <li>Uroginekologia praktyczna (Badanie kliniczne, USG - "Hands ON") Wstęp do osteopatii uroginekologicznej - Uniwersytet Medyczny w Łodzi</li>
+                <li>Kompleksowa terapia blizn - Rehaintegro</li>
+                <li>Kompleksowa fizjoterapia i suche igłowanie blizny po cesarskim cięciu i episiotomii - FizjoFemina</li>
+                <li>Fizjoterapia uroginekologiczna kobiet w ciąży - MOVUTO</li>
+                <li>Postępowanie fizjoterapeutyczne po zabiegach i operacjach ginekologicznych</li>
+                <li>Kinesiotaping w uroginekologii - dysfunkcje uroginekologiczne okres ciąży i połogu - mc2courses</li>
+                <li>Fizjoterapia położnicza - W drodze do porodu</li>
+                <li>Wybrane problemy kliniczne u kobiet po porodzie, a możliwość fizjoterapii - Krajowa Izba Fizjoterapeutów</li>
+                <li>Zaburzenia kontroli moczu u kobiet - Krajowa Izba Fizjoterapeutów</li>
+                <li>Fizjoterapia uroginekologiczna - wprowadzenie - Krajowa Izba Fizjoterapeutów</li>
               </ul>
             </div>
           </div>
