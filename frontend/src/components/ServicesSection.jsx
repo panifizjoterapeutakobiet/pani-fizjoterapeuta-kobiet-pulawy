@@ -21,6 +21,11 @@ const ServicesSection = () => {
     description: "Specjalistyczne techniki manualne rozluźniające blizny po cesarskim cięciu. Pomaga zmniejszyć ból, poprawić wygląd blizny i przywrócić prawidłową funkcję tkanek."
   },
   {
+    title: "Terapia po episiotomii i pęknięciu tkanek krocza",
+    short: "Regeneracja i leczenie blizn poporodowych krocza",
+    description: "Specjalistyczna terapia blizn po episiotomii i naturalnych pęknięciach krocza. Techniki manualne i suche igłowanie pomagają zmniejszyć ból, poprawić elastyczność tkanek i przywrócić komfort w życiu codziennym i intymnym. Terapia wspiera gojenie, redukuje napięcia i przywraca prawidłową funkcję mięśni dna miednicy."
+  },
+  {
     title: "Rozejście mięśnia prostego brzucha",
     short: "Terapia diastazy po ciąży",
     description: "Program terapeutyczny dla kobiet z rozstępem mięśni brzucha po ciąży. Obejmuje ćwiczenia stabilizacyjne, treningi oddechowe i techniki manualne wspierające zbliżenie mięśni."
